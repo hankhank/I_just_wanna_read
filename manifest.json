@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "removecrap.js" ],
+      "matches": [ "http://*.smh.com.au/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Get rid of the crap SMH are pulling",
+   "homepage_url": "http://www.sideramota.com",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMvmFpbnsa0uJtLUMb8BMbHTVb/pR/AELjx4w8txLAcrwKNsFtpew9fTAKVL06cjLLyvnxlUkyGYXfQTKvQhJyDSR4Wf4YQ/lTH/6eMkE5vgpo+ciF0QZpIyn8joJYaBgzmpp/VM4uN/a1xL+ZABMSQSv58CKLS5bZyfeHXsitKwIDAQAB",
+   "manifest_version": 2,
+   "name": "I just wanna read",
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.141"
+}
